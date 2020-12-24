@@ -4,12 +4,12 @@ import Vue from 'vue'
 import Web3 from 'web3'
 
 export const state = () => ({
-  versionSupported: '0.20',
+  versionSupported: '0x0021',
   web3Error: null,
   // gasCreate: 5000778,
   // this is a demo, this is obviously not a recommended method
-  attestor: '0x955d20aedce1227941b12fa27aa1c77af758e10c',
-  attestorPkey: 'c81c5128f1051be82c1896906cb1e283e07ec99e8ff53c5d02ea78cf5e7cc790',
+  attestor: '0xA6d339f68b54C5381ccb385863C1Bdbf388652EF',
+  attestorPkey: '872bd216954a71f302959939c1d05b8a3e12432e651728b9f17ec42c735cccb9',
   scheme: '0x0201ff01',
   account: null,
   rougeVersion: null,
